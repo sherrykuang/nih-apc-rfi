@@ -30,6 +30,12 @@ All three file formats have the following features:
  -    [6] "Professional Organization/Association"                       
  -    [7] "Research Participant/Patient Advocacy Organization"          
  -    [8] "Scholarly Publisher/Journal"
+-  Role - The role of the person submitting the comment with values:
+ -  [1] "Institutional Information Sciences Professional/Librarian"
+ - [2] "Investigator/Researcher"
+ - [3] "Member of the Public"
+ - [4] "Organizational Official"
+ - [5] "Other"             
 -  Upload - The URL of any file uploaded with the submission. In the case of multiple files, only the first file was retained here.
 -  Comment - The full comment. This field has been roughly cleaned to remove artifacts from conversion to ascii. If the submission had substantive responses to the five questions (see, Q1-Q5), then this field is               the concatenation of all of those responses. If the submission was entirely from an uploaded file, then this field contains only the extracted text from that file.
 -  Upload.Description - Details about the nature of the uploaded file(s).
